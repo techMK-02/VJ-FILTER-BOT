@@ -1107,7 +1107,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(text=new_text)
             return
         else:
-            await query.answer("🤣 you already used\n\nfree now no more free trail.\n\nplease buy subscription", show_alert=True)
+            await query.answer(" ○ sᴏʀʀʏ ʙʀᴏ ʙᴜᴛ ʏᴏᴜ ᴜsᴇᴅ ᴛʀɪᴀʟ 🤡\n\n ○ ɴᴏᴡ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ 🍁\n\n ○ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀɴ ᴘʀɪᴄᴇs ɪs ᴛᴏ ʟᴏᴡ📉\n\n ○ sᴇᴇ ᴘʟᴀɴ ʀᴀᴛᴇs ᴜsɪɴɢ /plan 🀄", show_alert=True)
         return
     elif query.data == "buy_premium":
         btn = [[            
