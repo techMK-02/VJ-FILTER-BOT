@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʏ {},🍁</blockquote>\n\n
+    START_TXT = """<b><blockquote>Hᴇʏ {},🍁</blockquote>\n
 ✦ ᴍʏ ɴᴀᴍᴇ ɪꜱ #FilmyWapX ,
 ✦ ɪ ᴀᴍ ʙᴇꜱᴛ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ✦ ɪ ᴀᴍ ᴜꜱɪɴɢ ʙᴇꜱᴛ ᴀɪ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ
@@ -247,9 +247,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+    CAPTION = """<b><b>📂Tɪᴛʟᴇ:</b> <code>{file_name}</code>\n\n<b>➥𝗖𝗵𝗮𝗻𝗻𝗲𝗹:  @iCrunchBots</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -481,11 +479,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
    ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
    ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝"""
  
-    TAMIL_INFO = """
-ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- இப்போது டெலிகிராமிலும் பணம் சம்பாதிக்கலாம்.
+    TAMIL_INFO = """<blockquote><b>இப்போது டெலிகிராமிலும் பணம் சம்பாதிக்கலாம்.
 
  தந்தி மூலம் பணம் சம்பாதிக்க உங்களிடம் 1 குழு இருக்க வேண்டும்.
  உங்களிடம் குழு இருந்தால், எங்கள் bot ஐ உங்கள் குழுவில் சேர்ப்பதன் மூலம் நீங்கள் பணம் சம்பாதிக்கலாம்.
@@ -494,11 +488,11 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  எப்படி மற்றும் என்ன செய்ய வேண்டும்
 
- படி 1: இந்த VJ-FILTER-BOT போட் உங்கள் குழுவை நிர்வாகியாக்குங்கள்
+ படி 1: இந்த FilmyWabX_BOT போட் உங்கள் குழுவை நிர்வாகியாக்குங்கள்
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  வீடியோவைச் சேர்க்கவும்
 
@@ -506,13 +500,9 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  Exp: /set_tutorial video link
 
-மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..."""
+மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..</b>.</blockquote>"""
 
-    ENGLISH_INFO = """
-Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- Now you can earn money on Telegram too.
+    ENGLISH_INFO = """<blockquote><b>Now you can earn money on Telegram too.
 
  You must have 1 group to earn money by telegram.
  If you have a group, you can earn money by adding our bot to your group.
@@ -521,11 +511,11 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this FilmyWabX_BOT bot to your group
 
  Step 2: Add your website and API
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  Add a video
 
@@ -533,13 +523,9 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  Exp: /set_tutorial video link
 
-Also your tutorial will be Added Your Group..."""
+Also your tutorial will be Added Your Group..</b>.</blockquote>"""
 
-    TELUGU_INFO = """
-హే <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- ఇప్పుడు మీరు టెలిగ్రామ్‌లో కూడా డబ్బు సంపాదించవచ్చు.
+    TELUGU_INFO = """<blockquote><b>ఇప్పుడు మీరు టెలిగ్రామ్‌లో కూడా డబ్బు సంపాదించవచ్చు.
 
  టెలిగ్రామ్ ద్వారా డబ్బు సంపాదించడానికి మీరు తప్పనిసరిగా 1 గ్రూప్‌ని కలిగి ఉండాలి.
  మీకు గ్రూప్ ఉన్నట్లయితే, మా బాట్‌ను మీ గ్రూప్‌కి జోడించడం ద్వారా మీరు డబ్బు సంపాదించవచ్చు.
@@ -548,7 +534,7 @@ Also your tutorial will be Added Your Group..."""
 
  ఎలా మరియు ఏమి చేయాలి
 
- దశ 1: ఈ VJ-FILTER-BOT బాట్‌ని మీ సమూహానికి నిర్వహించండి
+ దశ 1: ఈ FilmyWabX_BOT బాట్‌ని మీ సమూహానికి నిర్వహించండి
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
@@ -560,13 +546,9 @@ Also your tutorial will be Added Your Group..."""
 
  గడువు: /set_tutorial వీడియో లింక్
 
-అలాగే మీ బృందం వీడియో సేకరణకు శిక్షణ ఇస్తుంది..."""
+అలాగే మీ బృందం వీడియో సేకరణకు శిక్షణ ఇస్తుంది..</b>.</blockquote>"""
 
-    HINDI_INFO = """
-अरे <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- अब आप टेलीग्राम पर भी पैसे कमा सकते हैं।
+    HINDI_INFO = """</blockquote><b>अब आप टेलीग्राम पर भी पैसे कमा सकते हैं।
 
  टेलीग्राम से पैसे कमाने के लिए आपके पास 1 ग्रुप होना चाहिए।
  यदि आपके पास एक समूह है, तो आप हमारे बॉट को अपने समूह में जोड़कर पैसा कमा सकते हैं।
@@ -579,7 +561,7 @@ Also your tutorial will be Added Your Group..."""
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
- एक्सप: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ एक्सप: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  एक वीडियो जोड़ें
 
@@ -587,13 +569,9 @@ Also your tutorial will be Added Your Group..."""
 
  ऍक्स्प: /set_tutorial वीडियो लिंक
 
-साथ ही हमारी टीम आपको वीडियो संग्रह का प्रशिक्षण भी देगी..."""
+साथ ही हमारी टीम आपको वीडियो संग्रह का प्रशिक्षण भी देगी..</>.</blockquote>"""
 
-    MALAYALAM_INFO = """
-ഹേയ് <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- ഇപ്പോൾ നിങ്ങൾക്ക് ടെലിഗ്രാമിലും പണം സമ്പാദിക്കാം.
+    MALAYALAM_INFO = """<blockquote><b>നിങ്ങൾക്ക് ടെലിഗ്രാമിലും പണം സമ്പാദിക്കാം.
 
  ടെലിഗ്രാം വഴി പണം സമ്പാദിക്കാൻ നിങ്ങൾക്ക് ഒരു ഗ്രൂപ്പ് ഉണ്ടായിരിക്കണം.
  നിങ്ങൾക്ക് ഒരു ഗ്രൂപ്പ് ഉണ്ടെങ്കിൽ, നിങ്ങളുടെ ഗ്രൂപ്പിലേക്ക് ഞങ്ങളുടെ ബോട്ട് ചേർത്തുകൊണ്ട് നിങ്ങൾക്ക് പണം സമ്പാദിക്കാം.
@@ -606,7 +584,7 @@ Also your tutorial will be Added Your Group..."""
 
  ഘട്ടം 2: നിങ്ങളുടെ വെബ്‌സൈറ്റും API-യും ചേർക്കുക
 
- കാലഹരണപ്പെടൽ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ കാലഹരണപ്പെടൽ: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  ഒരു വീഡിയോ ചേർക്കുക
 
@@ -614,14 +592,9 @@ Also your tutorial will be Added Your Group..."""
 
  കാലഹരണപ്പെടൽ: /set_tutorial വീഡിയോ ലിങ്ക്
 
-നിങ്ങളുടെ ടീം വീഡിയോ ശേഖരണവും പരിശീലിപ്പിക്കും..."""
+നിങ്ങളുടെ ടീം വീഡിയോ ശേഖരണവും പരിശീലിപ്പിക്കും..<b>.</blockquote>"""
 
-    URTU_INFO = """
- <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- اب آپ ٹیلی گرام پر بھی پیسے کما سکتے ہیں۔
-
+    URTU_INFO = """<blockquote><b>اب آپ ٹیلی گرام پر بھی پیسے کما سکتے ہیں۔
  ٹیلی گرام کے ذریعے پیسے کمانے کے لیے آپ کے پاس 1 گروپ ہونا ضروری ہے۔
  اگر آپ کا کوئی گروپ ہے، تو آپ ہمارے بوٹ کو اپنے گروپ میں شامل کر کے پیسے کما سکتے ہیں۔
 
@@ -629,11 +602,11 @@ Also your tutorial will be Added Your Group..."""
 
  کیسے اور کیا کرنا ہے۔
 
- مرحلہ 1: اپنے گروپ میں اس VJ-FILTER-BOT بوٹ کا انتظام کریں۔
+ مرحلہ 1: اپنے گروپ میں اس FilmyWabX-BOT بوٹ کا انتظام کریں۔
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  ایک ویڈیو شامل کریں۔
 
@@ -641,13 +614,9 @@ Also your tutorial will be Added Your Group..."""
 
  Exp: /set_tutorial ویڈیو لنک
 
-نیز آپ کی ٹیم ویڈیو جمع کرنے کی تربیت دے گی..."""
+نیز آپ کی ٹیم ویڈیو جمع کرنے کی تربیت دے گی..</b>.<blockquote>"""
 
-    GUJARATI_INFO = """
-અરે <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- હવે તમે ટેલિગ્રામ પર પણ પૈસા કમાઈ શકો છો.
+    GUJARATI_INFO = """<blockquote><b>હવે તમે ટેલિગ્રામ પર પણ પૈસા કમાઈ શકો છો.
 
  ટેલિગ્રામ દ્વારા પૈસા કમાવવા માટે તમારી પાસે 1 જૂથ હોવું આવશ્યક છે.
  જો તમારી પાસે જૂથ છે, તો તમે અમારા બોટને તમારા જૂથમાં ઉમેરીને પૈસા કમાઈ શકો છો.
@@ -656,11 +625,11 @@ Also your tutorial will be Added Your Group..."""
 
  કેવી રીતે અને શું કરવું
 
- પગલું 1: તમારા જૂથમાં આ VJ-FILTER-BOT બોટનું સંચાલન કરો
+ પગલું 1: તમારા જૂથમાં આ FilmyWabX_BOT બોટનું સંચાલન કરો
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
- સમાપ્તિ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ સમાપ્તિ: /shortlink seturl.in 4b392f8eb6ad711fbe58
 
  વિડિઓ ઉમેરો
 
@@ -668,7 +637,7 @@ Also your tutorial will be Added Your Group..."""
 
  સમાપ્તિ: /set_tutorial વિડિઓ લિંક
 
-તેમજ તમારી ટીમ વિડિયો કલેક્શનની તાલીમ આપશે..."""
+તેમજ તમારી ટીમ વિડિયો કલેક્શનની તાલીમ આપશે..</b>.</blockquote>"""
 
     KANNADA_INFO = """<b><blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ :</blockquote>
 •─────•─────────•─────•
