@@ -51,7 +51,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
+                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="kannada_info"),
                 InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
             ],[
                 InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
@@ -131,7 +131,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
+                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="kannada_info"),
                 InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
             ],[
                 InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
@@ -182,7 +182,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
+                    InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="kannada_info"),
                     InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
                 ],[
                     InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
