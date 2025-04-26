@@ -3,16 +3,19 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
-    
-ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ...💸</b>"""
+    START_TXT = """<b><blockquote>Hᴇʏ {},🍁</blockquote>\n\n
+✦ ᴍʏ ɴᴀᴍᴇ ɪꜱ #FilmyWapX ,
+✦ ɪ ᴀᴍ ʙᴇꜱᴛ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
+✦ ɪ ᴀᴍ ᴜꜱɪɴɢ ʙᴇꜱᴛ ᴀɪ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ
+ !!</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
-    HELP_TXT = """<b>ʜᴇʟʟᴏ {}
-ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇs.</b>"""
+    HELP_TXT = """<b>{}
+<blockquote>ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇs</blockquote>
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
 
     ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
@@ -213,7 +216,11 @@ Nᴀᴍᴇ - {}"""
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """<b>😿ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
+
+🍿 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ᴍᴏᴠɪᴇ ᴏʀ ᴡᴇʙsᴇʀɪᴇs sᴇɴᴅ ɪᴛ's ɴᴀᴍᴇ ɪɴ ᴏᴜʀ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ
+
+🍂𝗚𝗿𝗼𝘂𝗽:- @iCrunch_Support</b>"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -250,22 +257,10 @@ Nᴀᴍᴇ - {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-
-IMDb Data:
-
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+🎬 <u>IMDB_Dᴀᴛᴀ</u>
+🍿 Tɪʟᴛᴇ: {title} [ {year} ]
+🎭 Gᴇɴʀᴇs: {genres}
+🌟 Rᴀᴛɪɴɢ: {rating} / 10 </b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -294,13 +289,23 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
  <b>ᴄᴏᴍᴍᴀɴᴅꜱ</b> :<b> 𝄟⃝.  /song ꜱᴏɴɢ ɴᴀᴍᴇ</b></b>""" 
   
-    YTDL_TXT = """<b>ʜᴇʟᴩ yᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ. 
-  
- ᴜꜱᴀɢᴇ : yᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴy ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ 
-  
- ʜᴏᴡ ᴛᴏ ᴜꜱᴇ : ᴛyᴩᴇ - /video ᴏʀ /mp4 
-  
- ᴇxᴀᴍᴩʟᴇ :<code>/mp4 https://youtu.be/example...</code></b>""" 
+    YTDL_TXT = """<b>🍿 𝐌𝐎𝐕𝐈𝐄/𝐒𝐄𝐑𝐈𝐄𝐒 𝐒𝐄𝐀𝐑𝐂𝐇 𝐑𝐔𝐋𝐄𝐒 🍿
+
+➜ ᴀʟᴡᴀʏꜱ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ ɪɴ ᴇɴɢʟɪꜱʜ. ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴏᴛʜᴇʀꜱ ʟᴀɴɢᴜᴀɢᴇ.
+
+◉ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ʟɪᴋᴇ ᴛʜɪꜱ :- 
+› ꜱᴀʟᴀᴀʀ 2023 ✔️ 
+› ꜱᴀʟᴀᴀʀ ʜɪɴᴅɪ ✔️ 
+› ꜱᴀʟᴀᴀʀ ꜱᴏᴜᴛʜ ᴍᴏᴠɪᴇ ❌ 
+› ꜱᴀʟᴀᴀʀ ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ ❌  
+
+◉ ꜱᴇᴀʀᴄʜ ꜱᴇʀɪᴇꜱ ʟɪᴋᴇ ᴛʜɪꜱ :- 
+› ᴠɪᴋɪɴɢꜱ ✔️ 
+› ᴠɪᴋɪɴɢꜱ ꜱ01 ✔️ 
+› ᴠɪᴋɪɴɢꜱ ꜱᴇᴀꜱᴏɴ 1 ❌  
+› ᴠɪᴋɪɴɢꜱ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ❌    
+
+<blockquote> ➜ ɪғ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ ꜱᴇɴᴅ ɴᴀᴍᴇ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.</b> </blockquote>""" 
   
     TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
   
@@ -584,7 +589,7 @@ Also your tutorial will be Added Your Group..."""
 
  ऍक्स्प: /set_tutorial वीडियो लिंक
 
-साथ ही आपकी टीम वीडियो संग्रह का प्रशिक्षण भी देगी..."""
+साथ ही हमारी टीम आपको वीडियो संग्रह का प्रशिक्षण भी देगी..."""
 
     MALAYALAM_INFO = """
 ഹേയ് <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
