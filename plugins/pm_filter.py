@@ -2466,7 +2466,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🍁ᴄʜᴇᴄᴋ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs🍁", callback_data="bangladesh_info"),
 	],[
             InlineKeyboardButton("🎟️ʀᴇғᴇʀʀᴀʟ", callback_data="subscription"),
-	    InlineKeyboardButton("ᴛᴀᴋᴇ ᴛʀᴀɪʟ🀄", callback_data="subscription")
+	    InlineKeyboardButton("ᴛᴀᴋᴇ ᴛʀᴀɪʟ🀄", callback_data="get_trail")
 	],[
 	    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
