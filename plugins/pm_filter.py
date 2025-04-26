@@ -1974,7 +1974,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "subscription":
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='kannada_info'),
-	    InlineKeyboardButton('sʜᴀʀᴇ🗼', url=f'https://t.me/share/url?url=%F0%9F%80%84%C9%AA%20%D2%93%E1%B4%8F%E1%B4%9C%C9%B4%E1%B4%85%20%E1%B4%80%20%E1%B4%80%E1%B4%8D%E1%B4%80%E1%B4%A2%C9%AA%C9%B4%C9%A2%20%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%CA%99%E1%B4%8F%E1%B4%9B%20%0A%0A%F0%9F%8E%AC%20T%CA%9C%E1%B4%87%CA%80%E1%B4%87%20%E1%B4%85%E1%B4%80%E1%B4%9B%E1%B4%80%CA%99%E1%B4%80s%E1%B4%87%20%E1%B4%9B%E1%B4%8F%20%CA%99%C9%AA%C9%A2%20%0A%0A%F0%9F%8D%BFJ%E1%B4%9Cs%E1%B4%9B%20%C9%AA%E1%B4%8F%C9%AA%C9%B4%20%E1%B4%9B%CA%9C%C9%AAs%20%E1%B4%80%C9%B4%E1%B4%85%20s%CA%9C%E1%B4%80%CA%80%E1%B4%87%20%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87%20%C9%B4%E1%B4%80%E1%B4%8D%E1%B4%87%20%E1%B4%9B%E1%B4%8F%20s%E1%B4%87%E1%B4%87%20%E1%B4%9B%CA%9C%E1%B4%87%20%E1%B4%8D%E1%B4%80%C9%A2%C9%AA%E1%B4%84%0A%0A%F0%9D%97%95%F0%9D%97%A2%F0%9D%97%A7%20%20%F0%9D%97%9F%F0%9D%97%A1%F0%9D%97%9E%0A%3A-https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id'),
+	    InlineKeyboardButton('sʜᴀʀᴇ🗼', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
 	    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
