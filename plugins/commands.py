@@ -52,7 +52,7 @@ async def start(client, message):
                 InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
             ],[
                 InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
-                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="tamil")
+                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
             ],[
                 InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='about')
@@ -132,7 +132,7 @@ async def start(client, message):
                 InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
             ],[
                 InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
-                InlineKeyboardButton('Rᴜʟᴇꜱ📒', url=GRP_LNK)
+                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
             ],[
                 InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='about')
@@ -183,7 +183,7 @@ async def start(client, message):
                     InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="subscription"),
-                    InlineKeyboardButton('Rᴜʟᴇꜱ📒', url=GRP_LNK)
+                    InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
                 ],[
                     InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='about')
