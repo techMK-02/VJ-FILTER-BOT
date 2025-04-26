@@ -70,7 +70,7 @@ async def start(client, message):
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEQMb1oDN16pzWgmsta3mzzTYmPmFMP_gACQBUAAsHwQFaBus-3qm02GR4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -203,7 +203,7 @@ async def start(client, message):
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+            m=await message.reply_sticker("CAACAgUAAxkBAAEQMb1oDN16pzWgmsta3mzzTYmPmFMP_gACQBUAAsHwQFaBus-3qm02GR4E") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
@@ -1360,11 +1360,12 @@ async def check_plans_cmd(client, message):
         expiry_time = remaining_time + datetime.datetime.now()
         await message.reply_text(f"**Your plans details are :\n\nRemaining Time : {remaining_time}\n\nExpirytime : {expiry_time}**")
     else:
-        btn = [ 
-            [InlineKeyboardButton("ɢᴇᴛ ғʀᴇᴇ ᴛʀᴀɪʟ ғᴏʀ 𝟻 ᴍɪɴᴜᴛᴇꜱ ☺️", callback_data="get_trail")],
-            [InlineKeyboardButton("ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅs", callback_data="buy_premium")],
-            [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
-        ]
+        btn = [[
+            InlineKeyboardButton("🍁ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ🗼", callback_data="kannada_info")
+      ],[
+            InlineKeyboardButton("🀄ɢᴇᴛ ᴛʀᴀɪʟ", callback_data="get_trail"),
+            InlineKeyboardButton("ᴄʟᴏsᴇ 📫", callback_data="close_data")
+       ]]
         reply_markup = InlineKeyboardMarkup(btn)
         m=await message.reply_sticker("CAACAgIAAxkBAAIBTGVjQbHuhOiboQsDm35brLGyLQ28AAJ-GgACglXYSXgCrotQHjibHgQ")         
         await message.reply_text(f"**😢 You Don't Have Any Premium Subscription.\n\n Check Out Our Premium /plan**",reply_markup=reply_markup)
