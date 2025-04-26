@@ -1974,7 +1974,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "subscription":
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='kannada_info'),
-	    InlineKeyboardButton('sʜᴀʀᴇ🗼', callback_data='start'),
+	    InlineKeyboardButton('sʜᴀʀᴇ🗼', url=f'https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
 	    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
