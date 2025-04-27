@@ -281,17 +281,16 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ</b>""" 
   
-    YTDL_TXT = """<b>   <u>▶️ ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴀɴᴅs ▶️</u>
-  
- <blockquote>1. ➠ /video ᴏʀ /mp4 
+    YTDL_TXT = """<b>  <u>▶️ ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴀɴᴅs ▶️</u>
+  <blockquote>1. ➠ /video ᴏʀ /mp4 
 ○ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏs🎦</blockquote>
- Ex:- 
+ Ex:- </b>
 <code>/mp4 https://youtu.be/NbyHNASFi6U</code>
 <code>/video https://youtu.be/NbyHNASFi6U</code>
  
-<blockquote>2. ➠ /song
+<blockquote><b>2. ➠ /song
 ○ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴀ sᴏɴɢ 🎵</blockquote>
-Ex:- <code>/song blue eyes</code>""" 
+Ex:-</b> <code>/song blue eyes</code>""" 
   
     TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
   
@@ -381,7 +380,7 @@ Ex:- <code>/song blue eyes</code>"""
       
  ᴅᴇʟᴇᴛᴇ ᴀ ʟᴏᴛ ᴏꜰ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ɢʀᴏᴜᴘs!  
       
-  ᴀᴅᴍɪɴ  
+  ᴀᴅᴍɪɴ 
   
  ◉ /purge :- ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ</b>""" 
   
