@@ -1917,14 +1917,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
              InlineKeyboardButton('⚙️ ᴀᴅᴍɪɴ ᴏɴʟʏ 🔧', callback_data='admin'),
          ], [ 
-             InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt'),   
+             InlineKeyboardButton('rename', callback_data='r_txt'),   
              InlineKeyboardButton('sᴛʀᴇᴀᴍ/ᴅᴏᴡɴʟᴏᴀᴅ', callback_data='s_txt') 
          ], [ 
-             InlineKeyboardButton('ꜰɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='store_file'),   
-             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele') 
-         ], [ 
-             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
-             InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ', callback_data='filters')
+             InlineKeyboardButton('ᴜsᴇʀ ᴄᴍᴅs¹', callback_data='store_file'),   
+             InlineKeyboardButton('ᴜsᴇʀ ᴄᴍᴅs²', callback_data='tele') 
          ], [
              InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl')
          ], [
@@ -2354,7 +2351,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
 	    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true&admin=post_messages+delete_messages+edit_messages+invite_users+promote_members+pin_messages')	
 	],[    
-	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
@@ -2370,8 +2367,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hindi_info":
         btn = [[
-            InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2388,7 +2385,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
 	    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true&admin=post_messages+delete_messages+edit_messages+invite_users+promote_members+pin_messages')	
 	],[    
-	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
@@ -2406,7 +2403,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
 	    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true&admin=post_messages+delete_messages+edit_messages+invite_users+promote_members+pin_messages')	
 	],[    
-	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
@@ -2424,7 +2421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
 	    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true&admin=post_messages+delete_messages+edit_messages+invite_users+promote_members+pin_messages')	
 	],[    
-	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
@@ -2483,7 +2480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
 	    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true&admin=post_messages+delete_messages+edit_messages+invite_users+promote_members+pin_messages')	
 	],[    
-	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+	    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="shortlink_info"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/+tXwTcWDhkKthNWRl")
         ]]
         await client.edit_message_media(
