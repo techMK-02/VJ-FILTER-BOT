@@ -1948,9 +1948,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎬 Lᴀᴛᴇꜱᴛ Rᴇʟᴇᴀꜱᴇᴅ 📊', url=GRP_LNK)
         ],[
             InlineKeyboardButton('☎️ᴏᴡɴᴇʀ', url='https://t.me/icrunchbot'),
-            InlineKeyboardButton('ʙᴀᴄᴋ-ᴜᴘ🆘', url='https://t.me/+kgocemkL9RNmOTc1')
+            InlineKeyboardButton('ʙᴀᴄᴋ-ᴜᴘ🆘', url='http://filmyXbackup.t.me')
         ],[
-            InlineKeyboardButton('🃏ꜱᴜᴘᴘᴏʀᴛ-ɢʀᴏᴜᴘ', url='https://t.me/+tXwTcWDhkKthNWRl'),
+            InlineKeyboardButton('🃏ꜱᴜᴘᴘᴏʀᴛ-ɢʀᴏᴜᴘ', url='https://t.me/filmyxsupport'),
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
