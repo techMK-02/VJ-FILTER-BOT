@@ -247,7 +247,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><b>📂Tɪᴛʟᴇ:</b> <code>{file_name}</code>\n\n<b>➥𝗖𝗵𝗮𝗻𝗻𝗲𝗹:  @iCrunchBots</b>""" 
+    CAPTION = """<b><b>📂Tɪᴛʟᴇ:</b> <code>{file_name}</code>\n\n<b>➥𝗖𝗵𝗮𝗻𝗻𝗲𝗹:  @WabXBots</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
