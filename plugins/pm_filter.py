@@ -1825,13 +1825,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url=CHNL_LNK)
+                InlineKeyboardButton('🌿 Bot Update Channel', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data="kannada_info"),
-                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="song")
+                InlineKeyboardButton('🎟️ Premium', callback_data="kannada_info"),
+                InlineKeyboardButton('⚠️Disclaimer', callback_data="song")
             ],[
-                InlineKeyboardButton('⚙️Hᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='about')
+                InlineKeyboardButton('💎 Referral', callback_data='subscription'),
+                InlineKeyboardButton('🎏 Promotion', callback_data='about')
             ]]
         else:
             buttons = [[
